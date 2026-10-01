@@ -7,7 +7,7 @@ export default defineConfig(({mode}) => {
   const env = loadEnv(mode, '.', '');
   return {
     plugins: [react(), tailwindcss()],
-    base:"/s3-port",
+    base:"/portfolio/",
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
